@@ -42,7 +42,7 @@ The `postmarkMailer` plugin for LimeSurvey allows you to send emails using the P
 
 After activating the plugin, you need to configure the Postmark API Key and From Email address.
 
-1. Go to "Configuration" -> "Global Settings" -> "Plugin manager."
+1. Go to "Configuration" -> "Global Settings" -> "Plugins"
 2. Click on "postmarkMailer" in the list of plugins.
 3. Fill in the required settings:
 

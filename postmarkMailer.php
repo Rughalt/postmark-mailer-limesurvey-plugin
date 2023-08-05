@@ -62,6 +62,20 @@ class postmarkMailer extends PluginBase
         $emailSubject=$this->getEvent()->get("subject");
         $emailBody=$this->getEvent()->get("body");
         $emailFrom=$this->getEvent()->get("from");
+
+        if (empty($this->get('postmarkApiKey'))) {
+            $this->event->set("send",true);        
+            $this->event->set("error",true);    
+            $this->event->set("message","Postmark API Key is not set.");
+            return;
+        }
+        
+        if (empty($this->get('postmarkFromEmail'))) {
+            $this->event->set("send",true);        
+            $this->event->set("error",true);    
+            $this->event->set("message","Postmark From Email is not set.");
+            return;
+        }
         
         foreach ($emailTos as $email) {
             $apiUrl = 'https://api.postmarkapp.com/email';
