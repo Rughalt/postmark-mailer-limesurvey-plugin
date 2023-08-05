@@ -6,8 +6,8 @@
         <creationDate>2023-08-05</creationDate>
         <last_update>2023-08-05</last_update>
         <author>Antoni Sobkowicz</author>
-        <authorUrl>https://www.dragonshorn.com</authorUrl>
-        <version>0.0.12</version>
+        <authorUrl>https://github.com/Rughalt/postmark-mailer-limesurvey-plugin</authorUrl>
+        <version>0.0.13</version>
         <license>MIT</license>
         <description><![CDATA[Send email using Postmark API]]></description>
     </metadata>

@@ -5,7 +5,7 @@
  * @author Antoni Sobkowicz
  * @copyright 2023 Antoni Sobkowicz
  * @license MIT
- * @version 1.0.0
+ * @version 0.0.13
  *
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -69,7 +69,7 @@ class postmarkMailer extends PluginBase
             $this->event->set("message","Postmark API Key is not set.");
             return;
         }
-        
+
         if (empty($this->get('postmarkFromEmail'))) {
             $this->event->set("send",true);        
             $this->event->set("error",true);    
