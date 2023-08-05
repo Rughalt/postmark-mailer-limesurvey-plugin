@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <metadata>
+        <name>postmarkMailer</name>
+        <type>plugin</type>
+        <creationDate>2023-08-05</creationDate>
+        <last_update>2023-08-05</last_update>
+        <author>Antoni Sobkowicz</author>
+        <authorUrl>https://www.dragonshorn.com</authorUrl>
+        <version>0.0.11</version>
+        <license>MIT</license>
+        <description><![CDATA[Send email using Postmark API]]></description>
+    </metadata>
+
+    <compatibility>
+        <version>4.0</version>
+        <version>5.0</version>
+        <version>6.0</version>
+    </compatibility>
+
+    <updaters disabled="disabled">
+    </updaters>
+</config>
