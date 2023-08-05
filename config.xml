@@ -18,6 +18,12 @@
         <version>6.0</version>
     </compatibility>
 
-    <updaters disabled="disabled">
-    </updaters>
+    <updaters>
+    <updater>
+        <stable>1</stable>
+        <type>rest</type>
+        <source>https://github.com/Rughalt/postmark-mailer-limesurvey-plugin/archive/refs/heads/main.zip</source>
+        <manualUpdateUrl>https://github.com/Rughalt/postmark-mailer-limesurvey-plugin</manualUpdateUrl>
+    </updater>
+</updaters>
 </config>
